@@ -1,0 +1,288 @@
+body
+{
+    padding:0px;
+    margin:0px;
+}
+.red
+{
+    padding:0px;
+    margin:0px;
+    background-color:#FF9999;
+    width:20%;
+    height:120px;
+    float:left;
+    position:fixed;
+}
+.title
+{
+    padding:0px;
+    margin:0px;
+    background-color:#F0F0F0;
+    width:100%;
+    height:120px;
+}
+.title-text
+{
+    color:dimgray;
+    font-weight: bold;
+    font-size: 40px;
+    position:relative;
+    left:400px;
+    top:35px;
+}
+.menu
+{
+    padding:0px;
+    margin:0px;
+    background-color:dimgray;
+    width:20%;
+    height:600px;
+    float:left;
+    position:fixed;
+}
+ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+.guide
+{
+    display:block;
+    width:100%;
+    height:20px;
+    font-weight:bold;
+    font-size:20px;
+    color:white;
+    text-align:center;
+    padding:25px;
+    text-decoration:none;
+    cursor: pointer;
+}
+.guide:hover
+{
+    background-color:lightgray;
+    color:gray;
+}
+a.guide:link,a.guide:visited
+{
+    display:block;
+    width:100%;
+    height:20px;
+    font-weight:bold;
+    font-size:20px;
+    color:white;
+    text-align:center;
+    padding:25px;
+    text-decoration:none;
+    cursor: pointer;
+}
+a.guide:hover,a.guide:active
+{
+    background-color:lightgray;
+    color:gray;
+}
+a.item-guide:link,a.item-guide:visited
+{
+    display:block;
+    width:100%;
+    height:20px;
+    font-weight:bold;
+    font-size:16px;
+    color:white;
+    text-align:center;
+    padding:15px;
+    text-decoration:none;
+    cursor: pointer;
+}
+a.item-guide:hover,a.item-guide:active
+{
+    color:#FF9999;
+}
+#panel
+{
+    display:none;
+}
+.delete-item
+{
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:100%;
+    background-color:#dedede;
+}
+.table-title
+{
+    color:dimgray;
+    font-size:30px;
+    font-weight: bold;
+    position:relative;
+    left:700px;
+    padding: 30px;
+    width:100%;
+}
+.item-table
+{
+    position:relative;
+    left:350px;
+    width:900px;
+    border-collapse: collapse;
+    border:1px solid darkgray;
+    text-align: center;
+}
+tr,.option
+{
+    border:1px solid darkgray;
+}
+.thead
+{
+    height:50px;
+    padding:10px;
+    color:#383838;
+}
+.titem
+{
+    height:80px;
+    padding:20px;
+    font-weight: bold;
+}
+.info-left
+{
+	float:left;
+    padding-left: 150px;
+}
+.itemimag
+{
+    display: inline-block;
+    width:120px;
+    height:120px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    opacity:1.0;
+    filter:alpha(opacity=100);    /* For IE8 and earlier */
+}
+.itemimag:hover
+{
+    cursor:pointer;
+    opacity:0.8;
+    filter:alpha(opacity=100);    /* For IE8 and earlier */
+}
+.name
+{
+    color:#484848;
+    font-size: 14px;
+    position:relative;
+    top:-100px;
+    left:10px;
+}
+.price
+{
+    color:#FF3333;
+}
+.button
+{
+    font-size:14px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:5px;
+}
+.button:hover
+{
+    background-color: white;
+    color: #484848;
+    font-weight: bold;
+}
+.add
+{
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:80px;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes zoom {
+    from {transform: scale(0.1)}
+    to {transform: scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}

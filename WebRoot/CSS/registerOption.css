@@ -1,0 +1,35 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    background-image: url('../Image/login.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.register-option
+{
+    color:dimgray;
+    font-size:60px;
+    font-weight: bold;
+    position:relative;
+    left:500px;
+    padding-top: 160px;
+    width:100%;
+}
+.return
+{
+    text-decoration: none;
+    font-weight: bold;
+    color:gray;
+    font-size: 30px;
+    margin:0px;
+    padding:0px;
+    position:relative;
+    left:590px;
+    top:90px;
+    cursor: pointer;
+}
+.return:hover
+{
+    color:#484848;
+}

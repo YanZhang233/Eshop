@@ -1,0 +1,246 @@
+body
+{
+    text-align:center;
+    margin:auto;
+}
+.shadow
+{
+    box-shadow: 10px 0px 10px #888888;
+}
+.center
+{
+    text-align:center;
+    position:relative;
+    left:195px;
+}
+.right
+{
+    text-align:right;
+}
+.gray
+{
+    color:gray;
+    text-decoration:none;
+    font-size:14px;
+}
+ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+li
+{
+    float:left;
+}
+a.guide:link,a.guide:visited
+{
+    display:block;
+    width:160px;
+    height:20px;
+    font-weight:bold;
+    font-size:20px;
+    color:#FFFFFF;
+    background-color:darkgray;
+    text-align:center;
+    padding:15px;
+    text-decoration:none;
+}
+a.guide:hover,a.guide:active
+{
+    background-color:lavender;
+    color:dimgray;
+}
+.search
+{
+    height:100px;
+    position:relative;
+    left:-200px;
+    bottom:-20px;
+}
+.round
+{
+    padding:10px; width:500px;height:20px;
+    border: 5px solid #dedede;
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */
+    font-size:16px;
+    color:darkgray;
+}
+.button
+{
+    background-color: darkgray;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:15px;
+    font-weight: bold;
+}
+.button1
+{
+    background-color: darkgray;
+    color: white;
+    font-weight: bold;
+}
+.button1:hover
+{
+    background-color: white;
+    color: gray;
+    border: 2px solid gray;
+    font-weight: bold;
+}
+.button2
+{
+    height:50px;
+    display: inline-block;
+    background-color: #ffffff;
+    border: none;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-size:30px;
+    color:dimgray;
+    font-weight:bold;
+    text-shadow: 5px 5px 5px dimgray;
+    position:relative;
+    right:850px;
+}
+.button2 span
+{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button2 span:after
+{
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button2:hover span
+{
+    padding-right: 25px;
+}
+.button2:hover span:after
+{
+    opacity: 1;
+    right: 0;
+}
+.leftRound
+{
+    -moz-border-top-left-radius: 15px;      /* Gecko browsers */
+    -webkit-border-top-left-radius: 15px;   /* Webkit browsers */
+    border-top-left-radius:15px;            /* W3C syntax */
+}
+.rightRound
+{
+    -moz-border-top-right-radius: 15px;      /* Gecko browsers */
+    -webkit-border-top-right-radius: 15px;   /* Webkit browsers */
+    border-top-right-radius:15px;            /* W3C syntax */
+}
+.mainimag
+{
+    width:950px;
+    height:400px;
+    position:relative;
+    left:105px;
+    margin-bottom:30px;
+}
+.imag
+{
+    display: inline-block;
+    width:200px;
+    height:200px;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+    margin-left: 40px;
+    opacity:0.7;
+    filter:alpha(opacity=100);    /* For IE8 and earlier */
+}
+.imag:hover
+{
+    cursor:pointer;
+    opacity:1.0;
+    filter:alpha(opacity=100);    /* For IE8 and earlier */
+}
+.container
+{
+    text-align: center;
+    padding: 0px 50px;
+}
+.recimag
+{
+    position:relative;
+    left:-25px;
+}
+.menu:hover .menuContent
+{
+    display: block;
+}
+.menuContent
+{
+    display:none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width:190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top:50px;
+    z-index:999;
+}
+.menuContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.menuContent a:hover {background-color: #f1f1f1}
+.menutext
+{
+    text-align: center;
+    width:200px;
+}
+.menuimag
+{
+    margin-top:-125px;
+    position:relative;
+    left:190px;
+}
+.about
+{
+    position:relative;
+    left:400px;
+    height:100px;
+    text-align:center;
+    margin:50px;
+}
+.scan
+{
+    float:left;
+    margin-bottom: 50px;
+}
+.contact
+{
+    position:relative;
+    left:50px;
+    text-align: left;
+    color:rgb(104,104,104);
+    font-size:14px;
+}

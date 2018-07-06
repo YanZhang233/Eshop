@@ -1,0 +1,140 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    background-image: url('../Image/login.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.login
+{
+    padding:0px;
+    margin-top:100px;
+    position:relative;
+    left:500px;
+}
+ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+li
+{
+    float:left;
+}
+.present
+{
+    display:block;
+    width:150px;
+    height:20px;
+    background-color:lightgray;
+    color:dimgray;
+    text-align:center;
+    padding:15px;
+    text-decoration:none;
+    border-top-left-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+a.register:link,a.register:visited
+{
+    display:block;
+    width:150px;
+    height:20px;
+    color:#FFFFFF;
+    background-color:gray;
+    text-align:center;
+    padding:15px;
+    text-decoration:none;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+a.register:hover,a.register:active
+{
+    background-color:lavender;
+    color:dimgray;
+}
+.login-table
+{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.tinfo
+{
+    font-weight: bold;
+    color:dimgray;
+}
+.round
+{
+    border: 1px solid dimgray;
+    border-radius:7px;
+    width:270px;
+    height:25px;
+    margin-bottom: 15px;
+}
+.valround
+{
+    border: 1px solid dimgray;
+    border-radius:7px;
+    width:100px;
+    height:25px;
+    margin-bottom: 15px;
+}
+.val
+{
+    font-weight: bold;
+    color:dimgray;
+}
+.user
+{
+    background-color: darkgray;
+    border: none;
+    color: white;
+    padding: 12px 33px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:15px;
+    font-weight: bold;
+}
+.user:hover
+{
+    background-color: white;
+    color: gray;
+    border: 2px solid gray;
+    font-weight: bold;
+}
+.admin
+{
+    background-color: darkgray;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 55px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:15px;
+    font-weight: bold;
+}
+.admin:hover
+{
+    background-color: white;
+    color: gray;
+    border: 2px solid gray;
+    font-weight: bold;
+}

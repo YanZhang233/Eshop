@@ -1,0 +1,110 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    background-image: url('../Image/login.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.register
+{
+    padding:0px;
+    margin-top:100px;
+    position:relative;
+    left:500px;
+}
+ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+li
+{
+    float:left;
+}
+.present
+{
+    display:block;
+    width:150px;
+    height:20px;
+    background-color:lightgray;
+    color:dimgray;
+    text-align:center;
+    padding:15px;
+    text-decoration:none;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+a.login:link,a.login:visited
+{
+    display:block;
+    width:150px;
+    height:20px;
+    color:#FFFFFF;
+    background-color:gray;
+    text-align:center;
+    padding:15px;
+    text-decoration:none;
+    border-top-left-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+a.login:hover,a.login:active
+{
+    background-color:lavender;
+    color:dimgray;
+}
+.register-table
+{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.tinfo
+{
+    font-weight: bold;
+    color:dimgray;
+}
+.round
+{
+    border: 1px solid dimgray;
+    border-radius:7px;
+    width:260px;
+    height:25px;
+    margin-bottom: 15px;
+}
+.bottom
+{
+    margin-bottom: 15px;
+}
+.button
+{
+    background-color: darkgray;
+    border: none;
+    color: white;
+    padding: 12px 33px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 20px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:15px;
+    font-weight: bold;
+}
+.button:hover
+{
+    background-color: white;
+    color: gray;
+    border: 2px solid gray;
+    font-weight: bold;
+}
+.left
+{
+    margin-left: 85px;
+}
